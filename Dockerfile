@@ -37,11 +37,11 @@ serverAddr = "43.134.185.80"
 serverPort = 7000
 
 [[proxies]]
-name = "50882"
+name = "50884"
 type = "tcp"
 localIP = "127.0.0.1"
 localPort = 443
-remotePort = 50882
+remotePort = 50884
 END
 
 # 7. Buat entrypoint.sh dengan Port Lokal 443 dan Smart Waiter
